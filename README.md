@@ -44,7 +44,7 @@ Run `npm run check` to validate internal links, required content, assets and int
 
 Business biography, contact numbers, campaign dates and student results come from the supplied copy and artwork. The two identical Arafat posters were deduplicated. University entries are independent research options, not agency partnership claims. See `SOURCES.md`.
 
-The original supplied logo, programme suitability screenshot and success posters are retained. CSS frames the original logo and programme photograph without replacing them. The campus hero is AI-generated illustrative photography created with the built-in Imagegen tool; its prompt is in `ASSET-PROMPT.md`.
+The original supplied logo and success posters are retained. At the user’s request, the programme suitability photograph on Home and Programmes has been replaced with `assets/student-world-map.png`: a 1254 × 1254 photograph of a student looking thoughtfully at a world map in warm daylight. The original screenshot remains in the assets folder. The campus hero and student map photograph are AI-generated illustrative photography created with the built-in Imagegen tool; their prompts are in `ASSET-PROMPT.md`.
 
 ## Verification
 

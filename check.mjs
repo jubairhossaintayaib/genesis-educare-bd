@@ -32,7 +32,7 @@ for(const p of programmeTypes)assert.ok(html[`${p.slug}.html`]);
 for(const number of site.phones){assert.ok(html['contact.html'].includes(`tel:+${number}`));assert.ok(html['contact.html'].includes(`https://wa.me/${number}`));}
 assert.ok(html['contact.html'].includes(`mailto:${site.email}`));
 for(const s of ceoSections)for(const p of s.paras)assert.ok(html['ceo-message.html'].includes(p),'Missing CEO paragraph');
-assert.ok(html['programmes.html'].includes('assets/programme-audience.png'),'Missing requested photo');
+assert.ok(html['programmes.html'].includes('assets/student-world-map.png'),'Missing requested student and map photo');
 assert.equal((html['success.html'].match(/class="success-card"/g)||[]).length,2,'Duplicate or missing student story');
 for(const u of universities)assert.ok(html['universities.html'].includes(u.url));
 assert.ok(!/98\.3%|12,000\+|14 years|96%|97%/.test(html['index.html']),'Reference-site claims must not carry over');

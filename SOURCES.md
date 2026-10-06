@@ -42,6 +42,7 @@ The destination pages include additional national study-resource links. Their cu
 ## Supporting design assets
 
 - Campus hero: built-in Imagegen, prompt retained in `ASSET-PROMPT.md`.
+- Programme audience photograph: `assets/student-world-map.png`, 1254 × 1254 pixels, generated with built-in Imagegen on 6 October 2026 following the user’s selection of the rear-view student/world-map concept. Replaces the screenshot crop on Home and Programmes. Illustrative photography, not a real client testimonial.
 - Flags: [FlagCDN](https://flagcdn.com), downloaded as local SVG assets.
 - Font: [Manrope on Google Fonts](https://fonts.google.com/specimen/Manrope), downloaded locally.
 - Globe and interface icons: project-native SVG.
