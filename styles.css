@@ -27,3 +27,7 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.reveal-ready{opacity:1;transform:none}}
 .brand-mark{width:44px;height:46px}.site-footer .brand-mark{width:36px;height:36px}
 @media(max-width:600px){.brand-mark{width:40px;height:41px}}
+/* Give the header name more presence while retaining the existing logo size. */
+.site-header .brand>span:last-child{font-size:26px;white-space:nowrap}
+@media(max-width:1150px){.site-header .brand>span:last-child{font-size:23px}}
+@media(max-width:360px){.site-header .brand>span:last-child{font-size:20px}}
