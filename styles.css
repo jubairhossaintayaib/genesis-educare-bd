@@ -31,6 +31,8 @@
 .site-header .brand>span:last-child{font-size:26px;white-space:nowrap}
 @media(max-width:1150px){.site-header .brand>span:last-child{font-size:23px}}
 @media(max-width:360px){.site-header .brand>span:last-child{font-size:20px}}
+/* Size the header tagline from the name so it stays legible and spans the same width. */
+.site-header .brand small{font-size:.36em;letter-spacing:.06em}
 /* Homepage office map and shared enquiry form. */
 .home-contact{scroll-margin-top:110px}
 .home-contact .section-heading-row h2{margin-bottom:0}
@@ -89,3 +91,9 @@
 
 :is(.button,.nav-contact,.floating-contact):is(:hover,:focus-visible){transform:translateY(-1px)}
 @media(prefers-reduced-motion:reduce){:is(.button,.nav-contact,.floating-contact):is(:hover,:focus-visible){transform:none}}
+/* Home keeps its active colour without the underline. */
+#main-nav>a[href="index.html"][aria-current="page"]::after{display:none}
+/* The hero's second action is an outlined button, so its hover fill has room around the label. */
+.hero-actions{gap:14px}
+.hero-secondary{min-height:49px;padding:13px 22px;border:1px solid #ffffff73;border-radius:7px;font-size:12px}
+@media(max-width:600px){.hero-secondary{min-height:48px;font-size:11px}}
