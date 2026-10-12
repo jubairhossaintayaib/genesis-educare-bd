@@ -19,7 +19,7 @@
   document.addEventListener('keydown', event => {
     if(event.key === 'Escape') { closeMenu(); document.querySelectorAll('.nav-group[open]').forEach(group => group.open = false); }
   });
-  matchMedia('(min-width: 901px)').addEventListener('change', closeMenu);
+  matchMedia('(min-width: 1051px)').addEventListener('change', closeMenu);
 
   document.querySelectorAll('[data-filter-browser]').forEach(browser => {
     const cards = [...browser.querySelectorAll('[data-country]')];

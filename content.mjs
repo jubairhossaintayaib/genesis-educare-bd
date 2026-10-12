@@ -2,7 +2,7 @@ export const site = {
   name: 'Genesis Educare', email: 'genesiseducarebd@gmail.com',
   phones: ['8801805486170', '8801805486171', '8801805486172', '8801805486173'],
   address: '57/10 (2nd Floor), Panthapath, Dhaka 1215, Bangladesh',
-  maps: 'https://www.google.com/maps/search/?api=1&query=57%2F10%20Panthapath%20Dhaka%201215%20Bangladesh',
+  maps: 'https://maps.app.goo.gl/Ud45EoMrCUpN4Did9',
   origin: 'https://genesis-educare.thedeveloperdudesllc.chatgpt.site'
 };
 
