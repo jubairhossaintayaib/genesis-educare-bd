@@ -107,3 +107,7 @@
 .site-footer .footer-grid>div:first-child p{font-size:16px}
 /* Regular-weight footer typography. */
 .site-footer .footer-grid h3,.site-footer .footer-grid p,.site-footer .footer-grid>div>a:not(.brand),.site-footer .footer-bottom{font-weight:400}
+/* Mobile: smaller header logo and a centred hero with side-by-side actions. */
+@media(max-width:600px){.site-header .brand-mark{width:34px;height:35px}.site-header .brand-mark img{width:47px;top:-16px;left:-8px}.site-header .brand>span:last-child{font-size:20px}.hero{display:flex;flex-direction:column}.hero-content{flex:1;display:flex;flex-direction:column;width:calc(100% - 32px);padding:40px 0 29px;text-align:center}.hero .eyebrow,.hero-caption{margin-top:auto}.hero h1{font-size:42px}.hero p{margin-inline:auto}.hero-actions{flex-direction:row;justify-content:center;align-items:stretch;gap:8px;margin-bottom:36px}.hero .hero-actions>a{flex:1 1 0;min-width:0;max-width:190px;justify-content:center;gap:8px;padding-inline:10px;white-space:nowrap}.hero-actions svg{flex-shrink:0;width:14px;height:14px}}
+@media(max-width:360px){.site-header .brand>span:last-child{font-size:18px}.hero h1{font-size:38px}.hero .hero-actions>a{gap:6px;padding-inline:7px}}
+@media(max-width:355px){.hero-actions svg{display:none}}
